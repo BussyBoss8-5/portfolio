@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: end;
+        }
+        ul li a{
+            text-decoration: none;
+        }
+        li a{
+            padding: 20px;
+            color: white;
+        }
+        li{
+            padding-top: 15px;
+        }
+        h2{
+            padding: 20px;
+        }
+        .me{
+            padding: 20px;
+        }
+        .you{
+            margin-right: 30px;
+        }
+        form{
+            padding: 20px;
+        }
+   </style>
+</head>
+<body>
+    <div style="background-color: rgb(0, 0, 0);">
+        <!-- nav area -->
+        <div style="display: flex; background-color: black;">
+            <div><img src="CSS images/logo.png" alt="logo" width="80px"></div>
+        <div style="flex-direction: column; display: flex;">
+            <ul style="justify-content: end; font-size: x-large;">
+                <li style="margin-left: 500px;"><a href="assigment.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li style="margin-left: 30px;"><button style="padding: 5px; border-color: aquamarine; background-color: aquamarine; color: white; border-radius: 10px; font-size: x-large;"> <a href="cv/adobe1.pdf" style="color: white;" target="_blank">Download CV</a></button></li>
+            </ul>
+        </div>
+        </div>
+        <!-- banner area -->
+        <div style="display: flex; ">
+            <div style="width: 100%;">
+                <h1 style="color: white; margin-left: 20px;">Busayo Segun-Olafare</h1>
+                <h1 style="color: white; margin-left: 20px;">Fashion & Web Designer</h1>
+                <p style="color: white; margin-left: 20px;  font-size: x-large;"> Thank you for considering my website. I am looking forward to the possibility of engaging in a more detailed conversation. </p>
+                <p style="color: white; margin-left: 20px;  font-size: x-large;"> Please feel free to reach out to me at your earliest convenience via (587) 889-7259 or busayomij.so@gmail.com</p>
+                <div style="display: flex;"> 
+                    <button style="border-color: aquamarine; background-color: aquamarine; color: white; border-radius: 10px; padding: 10px; margin-left: 15px;">Hire Me</button>
+                    <br>
+                    <button style="border-color: aquamarine; background-color: black; color: aquamarine; border-radius: 10px;  padding: 10px; margin-left: 15px;">See My Work</button>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: end;"><img src="CSS images/mi.jpg" alt="me" width="70%"></div>
+        </div>
+        <div style="background-color: rgba(169, 169, 169, 0.404);">
+            <form action='assigment.html' method='get' style='background-color:pink'>
+                <label for='name'>Fullname</label>
+                <input type='text' id='name' name='data' required placeholder='Please enter your fullname.'>
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id='email' required>
+                <br>
+                <br>
+                <label for="country">Country</label>
+                <select>
+                    <option value='1'>Algeria</option>
+                    <option value='2'>Brazil</option>
+                    <option value='3'>Canada</option>
+                    <option value='4'>Denmark</option>
+                    <option value='5'>Egypt</option>
+                    <option value='6'>France</option>
+                    <option value='7'>Ghana</option>
+                    <option value='8'>Haiti</option>
+                    <option value='9'>Israel</option>
+                    <option value='10'>Japan</option>
+                    <option value='11'>Kenya</option>
+                    <option value='12'>Laos</option>
+                    <option value='13'>Mexico</option>
+                    <option value='14'>Nigeria</option>
+                    <option value='15'>Oman</option>
+                    <option value='16'>Peru</option>
+                    <option value='17'>Qatar</option>
+                    <option value='18'>Russia</option>
+                    <option value='19'>Sudan</option>
+                    <option value='20'>Togo</option>
+                    <option value='21'>Uganda</option>
+                    <option value='22'>Vietnam</option>
+                    <option value='23'>Wales</option>
+                    <option value='24'>Yemen</option>
+                    <option value='25'>Zambia</option>
+                    <option value='26'>Zimbabwe</option>
+                </select>
+                <br>
+                <br>
+                <p>Gender</p>
+                <input type='radio' id='male' name='gender' value='male'>
+                <label for="male">Male</label>
+                <input type='radio' id='female' name='gender' value='female'>
+                <label for="female">Female</label>
+                <input type='radio' id='non-binary' name='gender' value='non-binary'>
+                <label for="non-binary">Non-Binary</label>
+                <br>
+                <br>
+                <label for="home address">Address</label>
+                <textarea id='address' name='Home' rows='1' required></textarea>
+                <br>
+                <br>
+                <p>Do you want us to notificate you?</p>
+                <label for="yes">YES</label>
+                <input type="radio" id="answer" name="Yes">
+                <label for="no">NO</label>
+                <input type="radio" id="answer" name="No">
+                <label>
+                <br><br>
+                <input type="checkbox" id="terms" name="terms" required>
+                           I agree to the <a href="#">terms and conditions</a>.
+                </label><br><br>
+                <button style='background-color:blue; color:gold;'>Submit</button>
+                <button style='background-color:blue; color:gold;'>Reset</button>
+            </form>  
+            <div style="display: flex; justify-content: center; background-color: red;" class="me">
+                <div style="border: 3px solid yellow; width: 120px; color: white; padding: 20px; border-radius: 5px; height: 120px; background-color: goldenrod;" class="you"><h1 style="text-align: center;"><b>(587)889-7259</b></h2><p style="text-align: center; color: yellow;"><b>Phone</b></p></div>
+
+                <div style="border: 3px solid violet; width: 120px;color: white; padding: 20px; border-radius: 5px; height: 120px; background-color: darkviolet;" class="you"><h1 style="text-align: center;"><b>Busayo</b></h2><p style="text-align: center; color: violet;"><b>DM</b></p></div>
+
+                <div style="border: 3px solid powderblue; width: 120px;color: white; padding: 20px; border-radius: 5px; height: 120px; background-color: deepskyblue;" class="you"><h1 style="text-align: center;"><b>busayomij</b></h2><p style="text-align: center; color: powderblue;"><b>Email</b></p></div>
+
+                <div style="border: 3px solid springgreen; width: 120px;color: white; padding: 20px; border-radius: 5px; height: 120px; background-color: seagreen;" class="you"><h1 style="text-align: center;"><b>6543 176 Ave</b></h2><p style="text-align: center; color: springgreen;"><b>Location</b></p></div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div style="color: white; text-align: center; padding: 25px;"><b>Copyright&copy2025 KIDfashionProductions</b></div>
+    </div>
+</body>
+</html>
